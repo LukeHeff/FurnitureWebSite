@@ -18,7 +18,11 @@
     <body> <!-- body tag start of body section display on screen -->
         
         <header>
-            <h1>Delivery Info </h1>
+            <div class="header">
+                <img id="woodshoplogo" style="float: left"  src="Images/woodshop.jpg" alt="logo" width="30%" height="10%" >
+    <h1>The Wood Shop</h1>
+    <p>Gallery</p>
+                </div>
             
             <nav>
         
@@ -26,7 +30,8 @@
                 <li><a class="nav1" id="active" href="Home.html">Home</a></li>
                 <li><a class="nav1" href="Gallery.html">Gallery</a></li>
                 <li><a class="nav1" href="Delivery.html">Delivery Info</a></li>
-                <li><a class="nav1" href="About.html">About Us</a></li>
+                <li><a class="nav1" href="AboutUs.html">About Us</a></li>
+                <li><a class="nav1" href="ContactUs.html">Contact Us</a></li>
                 <li><a class="nav1" href="https://www.ikea.com/ie/en/" target="_blank">More Funiture</a></li>
             </ul>
     
@@ -39,17 +44,70 @@
             
             
             
-            <section> <!--section grouping of content-->
-                
-            <figure>
-                <img src="images/family.jpg" width="450" height="315" alt="mainImageFurniture">
-            </figure>
-                <h2>The Beauty of Our Work </h2>
+            <section>
+                <div class="gallery">
+                    <a target="_blank" href="images/shop1.jpg">
+                        <img src="images/shop1.jpg" alt="Grey Chair" width="600" height="400">
+                    </a>
+                    <div class="desc">Modern Arm Chair <br> €49.99</div>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="images/shop2.jpg">
+                        <img src="images/shop2.jpg" alt="White Chair" width="600" height="400">
+                    </a>
+                    <div class="desc">White Chair <br> €59.99</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/shop3.jpg">
+                        <img src="images/shop3.jpg" alt="iron shelf" width="600" height="400">
+                    </a>
+                    <div class="desc">Storage Shelf <br> €79.99</div>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="images/shop4.jpg">
+                        <img src="images/shop4.jpg" alt="Book Shelf" width="600" height="400">
+                    </a>
+                    <div class="desc">Book Shelf <br> €99.99</div>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="images/shop5.jpg">
+                        <img src="images/shop5.jpg" alt="Wardrobe" width="600" height="400">
+                    </a>
+                    <div class="desc">White Wardrobe <br> €129.00</div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/shop6.jpg">
+                        <img src="images/shop6.jpg" alt="Corner wardrobe" width="600" height="400">
+                    </a>
+                    <div class="desc">Corner Wardrobe <br> €174.00</div>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="images/shop7.jpg">
+                        <img src="images/shop7.jpg" alt="coffee table" width="600" height="400">
+                    </a>
+                    <div class="desc">Coffee Table <br> €45.00 </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/shop8.jpg">
+                        <img src="images/shop8.jpg" alt="Double Bed" width="600" height="400">
+                    </a>
+                    <div class="desc">Double Bed <br> €234.99 </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="images/shop9.jpg">
+                        <img src="images/shop9.jpg" alt="White Double Bed" width="600" height="400">
+                    </a>
+                    <div class="desc">Double Bed <br> €214.99 </div>
+            </section>
                 
                 
                 
         <article>
-            <h4>The images shown above is how our Furniture will look placed inside your home!  
+            <h4>Here is todays weekly selection of furniture on sale  for you, for an incredible price!  
             </h4>
 
         </article>
@@ -61,8 +119,8 @@
             
            
         </main>
-        <footer> <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom -->
-            <center><p>copyright 2021 Luke Heffernan</p></center>
+         <footer class="footer"> <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom -->
+            <p>copyright 2021 Luke Heffernan</p>
         
         
         </footer>
